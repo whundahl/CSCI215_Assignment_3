@@ -2,6 +2,10 @@
 
 ## Due 9 Nov 2017 @ 11:59 pm
 
+## Adding to Course website
+
+You created a course website in Assignment 1. Add your Assignment 2 course work to it. Use [this](http://pricee.stu.cofc.edu/) as an example. Remember, this could be a portfolio for you to send to potential employers, so while there are no real requirements with styling, spending some time making this look nice and combining your CSCI-115 knowledge could pay off huge in the future.
+
 ## Responsive.html 
 
 Make your course website responsive:
@@ -18,17 +22,13 @@ Using only what you have learned in class, create a webpage that displays 5 thum
 ## CountDown.html
 
 Using only what you have learned in class, create a webpage that has two divs on it: input and output. Only the input div is editable. On the webpage state: “You are only allowed to enter 50 characters in the input box.”. Above the output div have text that says “Number of characters remaining:” and inside the output div, display the number of characters the user can still enter in the input div. So, at the beginning, the output div would have “50” in it. If the user types in a character in the input div, you should automatically see the output div turn to “49”… If the number of characters left goes to a negative number, change the font color in the output div to red.   
-CountDownWithPics.html
-
-Using only what you have learned in class, create a webpage that has two divs on it: input and output. Only the input div is editable. On the webpage state: “You are only allowed to enter 50 characters in the input box.”. Above the output div have text that says “Number of characters remaining” and inside the output div, display the number of characters the user can still enter in the input div, but you must use the following pics to display the number:
 
 
-So, at the beginning, the output div would have this in it:
+## CountDownWithPics.html
 
+Using only what you have learned in class, create a webpage that has two divs on it: input and output. Only the input div is editable. On the webpage state: “You are only allowed to enter 50 characters in the input box.”. Above the output div have text that says “Number of characters remaining” and inside the output div, display the number of characters the user can still enter in the input div, but you must use the images in the **imgs** folder to display the number.
 
-
-If the user types in a character in the input div, you should automatically see the output div turn to:
 
 When the user has entered 50 characters and you are displaying the 0 bumblebee picture, do not allow the user to enter any additional characters.   
 
-THIS IS INDIVIDUAL WORK ONLY. Place all of your files inside of one .ZIP file and upload it to DropBox. So, only 1 file should be uploaded to DropBox. 
+THIS IS INDIVIDUAL WORK ONLY. Make sure to commit and push your code to GitHub.
