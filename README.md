@@ -17,7 +17,7 @@ You must figure this out from scratch (WRITE YOUR OWN CODE!) based on what we di
 
 ## picViewer.html
 
-Using only what you have learned in class, create a webpage that displays 5 thumbnail (small) images, and then when you click on then, a large version is displayed on the page with a pop-out div that includes a picture of a close-pop-out-div icon in the upper left corner. When the user clicks the icon, the pop out div goes away. (becomes back “hidden”… So, the div is always there, but you are manipulating the hidden attribute).
+Using only what you have learned in class, create a webpage that displays 5 thumbnail (small) images, and then when you click on then, a large version is displayed on the page with a pop-out div that includes a picture of a close-pop-out-div icon in the upper left corner. When the user clicks the icon, the pop out div goes away. (becomes back “hidden”… So, the div is always there, but you are manipulating the hidden attribute). The thumbnail image should "pop" a little when the mouse pointer is over the image and go back to normal when the mouse pointer is no long over the image. It is up to you how the image should "pop" but a couple of ideas would be to make the thumbnail a little larger or make all the thumbnails slightly opaque and when the mouse is over the image there is no "opaqueness". 
 
 ## CountDown.html
 
