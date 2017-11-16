@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Picture viewing demo</title>
+</head>
+<body align = center>
+<a href="javascript: myFunc('imgs/will1.jpg');">
+    <img src="imgs/will1.jpg" alt="thumbnail" width="100" height="70" border="0" style="margin-top: 10px;" onmouseover=>
+</a>
+
+<a href="javascript: myFunc('imgs/will2.jpg');">
+    <img src="imgs/will2.jpg" alt="thumbnail" width="100" height="70" border="0" style="margin-top: 10px;">
+</a>
+
+<a href="javascript: myFunc('imgs/will3.jpg');">
+    <img src="imgs/will3.jpg" alt="thumbnail" width="100" height="70" border="0" style="margin-top: 10px;">
+</a>
+
+<a href="javascript: myFunc('imgs/will4.jpg');">
+    <img src="imgs/will4.jpg" alt="thumbnail" width="100" height="70" border="0" style="margin-top: 10px;">
+</a>
+
+<a href="javascript: myFunc('imgs/will5.jpg');">
+    <img src="imgs/will5.jpg" alt="thumbnail" width="100" height="70" border="0" style="margin-top: 10px;">
+</a>
+<div id="imageDiv" style="position: relative; top: -70px; height: 400px; width: 600px; visibility: hidden;"></div>
+<script>
+
+    function myFunc(theimage){
+
+        var imageDiv = document.getElementById('imageDiv');
+
+        imageDiv.innerHTML = "";
+
+        imageDiv.innerHTML += "<img src=" + theimage + " height= 100% width=100%><br>";
+
+        imageDiv.innerHTML += "<span style:'position: relative; left: 260px; top: " + "-390px;'> "
+        + "<a href='javascript:dowork2()'>Close</a></span> ";
+
+    imageDiv.style.visibility = "visible";
+}
+
+
+
+var tags = document.getElementsByTagName("img");
+
+for (var i=0; i<tags.length; i++) {
+    tags[i].addEventListener("mouseover", function () {
+        this.height = "400";
+        this.width = "400";
+    });
+    tags[i].addEventListener("mouseout", function () {
+        this.height = "90";
+        this.width = "100";
+    });
+}
+</script>
+</body>
+</html>
